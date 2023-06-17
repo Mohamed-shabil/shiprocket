@@ -252,12 +252,13 @@ body{
     font-size: 35px;
 }
 .call_to_action{
-    background-image: url('assets/signup-back.svg');
+    background-image: url('assets/icons/signup-back.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
     border-radius: 20px;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
 }
 .call_to_action h1{
     padding-top: 45px;
@@ -274,6 +275,7 @@ body{
     margin-top: 20px;
     font-size: 20px;
     outline: none;
+    margin-bottom: 10px;
 }
 .copy_right{
     display:flex;
