@@ -29,9 +29,7 @@ body{
     width: 100%;
     height: 42px;
 }
-.home_container{
-    margin-top: 30px;
-}
+
 .home_container .logo img{
     width: 100%;
     height: 100%;
@@ -53,7 +51,7 @@ body{
     padding-left: 0;
     line-height: 35px;
 }
-.home_point li i{
+.home_point li svg{
     margin-right: 10px;
     font-size: 20px;
     color: #745be7;
@@ -315,6 +313,7 @@ body{
         box-sizing: border-box;
         padding: 12px!important;
     }
+    
     .card{
         margin: 5px!important;
         padding: 20px;
@@ -364,5 +363,8 @@ body{
     }
     .mobile_login{
         display: flex!important;
+    }
+    .factory_img{
+        height: auto!important;
     }
   }
